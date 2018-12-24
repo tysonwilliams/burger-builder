@@ -94,6 +94,7 @@ class BurgerBuilder extends Component {
         >
           <OrderSummary 
             ingredients={this.state.ingredients}
+            price={this.state.totalPrice}
             cancel={this.purchaseCancelHandler}
             continue={this.purchaseContinueHandler}
           />
